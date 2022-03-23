@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="multiple suites" parallel="tests">
+   <suite-files>
+    <suite-file path="search-module.xml"></suite-file>
+	<suite-file path="book-flight-module.xml"></suite-file>
+   </suite-files>
+</suite>
